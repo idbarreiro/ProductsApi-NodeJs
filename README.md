@@ -29,7 +29,16 @@ Para que la conexion de la base de datos se realice correctamente se debe realiz
 <li>Despues seleccionar SQL Server Services y para los servicios SQL Server (MSSQLSERVER) y (SQLSERVER) dar click derecho restart para aplicar los cambios realizados</li>
 
 <h3>Extensiones</h3>
-Instalar extension Rest Client VSCode para poder ejecutar los request que se encuentran en el archivo <b>products.http</b>
+Instalar extension Rest Client VSCode para poder ejecutar los request que se encuentran en el archivo <b>products.http</b><br>
+
+<h3>Pruebas Unitarias</h3>
+
+Se realiza la instalación del modulo jest 
+<li>npm install --save-dev jest</li><br>
+
+Se ejecutan las pruebas con el siguiente comando
+<li>npm run test</li>
+<br>
 
 Para la Rest Api creada con Node.Js se tiene desarrolladas las funcionalidad de 
 <li>Actualizar un producto por medio del Id.</li>
