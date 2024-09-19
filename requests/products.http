@@ -1,0 +1,13 @@
+PUT http://localhost:3000/api/Product/UpdateProduct/1
+Content-Type: application/json
+    
+    {
+    "name": "Reloj",
+    "description": "Reloj de pulsera de cuero Casio",
+    "price": 250000,
+    "stock": 5
+    }
+
+###
+
+DELETE http://localhost:3000/api/Product/DeleteProduct/5
